@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  visionTechno,
 } from "../assets";
 
 export const navLinks = [
@@ -35,6 +36,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "skills",
+    title: "Tech-Skills",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -42,19 +47,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "NodeJs - Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Software Developer",
     icon: creator,
   },
 ];
@@ -104,28 +109,22 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
     title: "React Full Stack Developer",
     company_name: "Vision Techno Services Pvt Ltd",
-    icon: starbucks,
+    icon: visionTechno,
     iconBg: "#383E56",
     date: "Feb 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained MERN (MongoDB, Express, React, NodeJs) stack applications, Implemented responsive design and ensuring cross-browser compatibility and user-friendly interfaces.",
+      "Improved UI performance by 60% by identifying bottlenecks, leveraging technologies like Context API and React Hooks.",
+      "Speeded up the code-writing process for the entire team by 15% by developing and implementing reusable JavaScript functions.",
+      "Designed and developed a reusable component library for future use, resulting in a 40% reduction in development time for new projects.",
+      "Partnered with cross-functional teams of back end developers, graphic designers, business analyst and marketing team to ensure consistency with brand standards. Demonstrated versatility, working with APIs and supporting back-end team.",
+      "Developed and maintained web applications using React.js, Node.js and other related technologies.",
     ],
   },
   // {

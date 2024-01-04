@@ -25,6 +25,7 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import visionTechno from "./company/vs-logo-3.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -61,4 +62,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  visionTechno,
 };
