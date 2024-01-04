@@ -50,7 +50,15 @@ const About = () => {
         MongoDB and Tailwind CSS. I'm a quick learner and collaborate closely
         with team and clients to create efficient, scalable, and user-friendly
         solutions that solve real-world problems. Let's work together to bring
-        your ideas to life!
+        your ideas to life!{" "}
+        <a
+          href="akshayFullStackReact3.pdf"
+          download="AkshayJadhao FullStackReact3.pdf"
+        >
+          <button className="bg-[#ff5823] hover:bg-white hover:text-black hover:transition-shadow text-sm font-semibold mt-1 ml-3 text-white-100 py-2 px-4 rounded-lg">
+            Get Resume
+          </button>
+        </a>
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

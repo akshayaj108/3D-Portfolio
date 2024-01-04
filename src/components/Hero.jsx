@@ -20,6 +20,11 @@ const Hero = () => {
             I develop component based user <br className="sm:block hidden" />
             interfaces and Server side Web Application.
           </p>
+          {/* <a href="akshayReact.pdf" download="AkshayCV akshayReact.pdf">
+            <button className="bg-[#ff5823] text-lg font-semibold mt-2 py-1 px-2 rounded-lg">
+              Get Resume
+            </button>
+          </a> */}
         </div>
       </div>
       <ComputersCanvas />
