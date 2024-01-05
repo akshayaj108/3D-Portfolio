@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  express,
   visionTechno,
 } from "../assets";
 
@@ -86,27 +87,27 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Express Js",
+    icon: express,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
-    name: "git",
+    name: "  Git",
     icon: git,
   },
 ];

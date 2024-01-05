@@ -31,6 +31,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import express from "./tech/express-js.png";
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   jobit,
   tripguide,
   visionTechno,
+  express,
 };
