@@ -107,7 +107,7 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "  Git",
+    name: "Git",
     icon: git,
   },
 ];

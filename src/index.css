@@ -202,3 +202,79 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+.profile-details-name {
+  font-size: 24px;
+  font-family: "Poppins SemiBold";
+}
+.profile-details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0px 24px 0px;
+}
+.profile-details-role h1 {
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.primary-text {
+  color: (--white);
+}
+.highlighted-text {
+  color: var(--dark-orange);
+}
+.profile-role-tagline {
+  font-size: 19px;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
+}
+.profile-option .highlighted-btn {
+  margin: 0 0 0 28px;
+}
+.profile-option .highlighted-btn:hover {
+  margin: 0 0 0 28px;
+  background-color: cornsilk;
+  color: #111;
+}
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 0 0 var(--white);
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  margin: 0 0px 0 100px;
+}
+.profile-pic-background {
+  height: 92%;
+  width: 92%;
+  background-image: url("./assets/company/dp1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+.profile-pic-background:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+@media only screen and (max-width: 800px) {
+  .profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0 0 var(--white);
+    border-radius: 30%;
+    height: 180px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+  }
+  .profile-pic-background {
+    height: 92%;
+    width: 92%;
+    background-image: url("./assets/company/dp1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20%;
+  }
+}
