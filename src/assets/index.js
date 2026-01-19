@@ -8,7 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import jbLogo from "./company/jblogo.png"
-import smsLogo from "./company/smslogo.png"
+import smsLogo from "./company/smsLogo.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
