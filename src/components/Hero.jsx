@@ -16,11 +16,11 @@ const Hero = () => {
         {/* below div for hero heading */}
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Akshay</span>
+            Hi, I'm <span className="text-[#ff5823]">Akshay</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2  text-white-100`}>
-            I develop component based user <br className="sm:block hidden" />
-            interfaces and Server side Web Application.
+            I build scalable, component-based user  <br className="sm:block hidden" />
+            interfaces and robust server-side web applications.
           </p>
           <a href="#about">
             <button className=" bg-[#ff5823] hover:bg-white hover:text-black hover:transition-shadow text-sm font-semibold mt-2 text-white-100 py-2 px-4 rounded-lg">
@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* <ComputersCanvas /> */}
+      <ComputersCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center mt-5">
         <a href="#about">

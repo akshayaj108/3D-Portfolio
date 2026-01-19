@@ -25,6 +25,13 @@ import {
   threejs,
   express,
   visionTechno,
+  nestjs,
+  postgresql,
+  microServices,
+  nextjs,
+  jebiLogo,
+  jbLogo,
+  smsLogo
 } from "../assets";
 
 export const navLinks = [
@@ -34,7 +41,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Work-Experience",
   },
   {
     id: "skills",
@@ -48,7 +55,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Web Developer",
+    title: "React Full Stack Developer",
     icon: web,
   },
   {
@@ -56,7 +63,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "NodeJs - Backend Developer",
+    title: "Backend Developer",
     icon: backend,
   },
   {
@@ -67,44 +74,61 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Next JS",
+    icon: nextjs,
   },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
+   {
+    name: "Nest JS",
+    icon: nestjs,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
+    name: "Redux",
+    icon: redux,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
+ 
   {
     name: "Express Js",
     icon: express,
   },
   {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Docker",
+    icon: docker,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
   },
   {
     name: "Git",
@@ -114,46 +138,47 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full Stack Developer",
+    company_name: "JEBITECH – Empowering Hospitality Technology",
+    icon: jbLogo,
+    iconBg: "#383E56",
+    date: "Mar 2025 - ",
+    points: [
+      "Worked as a Full Stack Developer, contributing to frontend development using Next.js and backend API development using NestJS and PostgreSQL.",
+      "Developed end-to-end features by implementing UI screens, backend APIs, and database integrations for property management and task workflow modules.",
+      "Designed, developed, and integrated REST APIs using NestJS and PostgreSQL, supporting multiple modules and enabling reliable, scalable frontend-backend communication.",
+      "Improved team productivity by ~15% by developing reusable JavaScript utility functions that reduced duplicate code and accelerated feature development.",
+      "Debugged and resolved issues across frontend and backend to improve application stability and performance."
+    ],
+  },
+   {
+    title: "React Developer",
+    company_name: "SMS-Magic",
+    icon: smsLogo,
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - Sept 2024",
+    points: [
+      "Enhanced UI responsiveness by ~60% through optimized state management using Context API and Redux Toolkit.",
+      "Refactored existing codebase to reduce technical debt by 15% and improve maintainability.",
+      "Collaborated in a remote-first Agile team using Slack, Jira, and GitHub for seamless cross-functional coordination.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
     title: "React Full Stack Developer",
     company_name: "Vision Techno Services Pvt Ltd",
     icon: visionTechno,
     iconBg: "#383E56",
-    date: "Feb 2021 - Present",
+    date: "Feb 2021 - Jan 2024",
     points: [
-      "Developed and maintained MERN (MongoDB, Express, React, NodeJs) stack applications, Implemented responsive design and ensuring cross-browser compatibility and user-friendly interfaces.",
-      "Improved UI performance by 60% by identifying bottlenecks, leveraging technologies like Context API and React Hooks.",
-      "Speeded up the code-writing process for the entire team by 15% by developing and implementing reusable JavaScript functions.",
-      "Designed and developed a reusable component library for future use, resulting in a 40% reduction in development time for new projects.",
-      "Partnered with cross-functional teams of back end developers, graphic designers, business analyst and marketing team to ensure consistency with brand standards. Demonstrated versatility, working with APIs and supporting back-end team.",
-      "Developed and maintained web applications using React.js, Node.js and other related technologies.",
+      "Developed and maintained production MERN stack applications supporting multiple business modules with a focus on performance and scalability.",
+      "Contributed to the development of a reusable component library, improving code reuse and reducing development effort across multiple features.",
+      "Designed and developed REST APIs for multiple modules, enabling seamless frontend-backend integration and supporting core business workflows.",
+      "Optimized NoSQL database queries by refactoring query logic and reducing redundant data fetches, resulting in lower database load and improved API response consistency.",
+      "Collaborated with cross-functional teams including designers, QA, and backend engineers in a remote setup to deliver features on schedule."
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+
   // {
   //   title: "Full stack Developer",
   //   company_name: "Meta",
@@ -169,32 +194,32 @@ const experiences = [
   // },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+// const testimonials = [
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
 
 const projects = [
   {
@@ -262,4 +287,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

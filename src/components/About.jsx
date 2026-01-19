@@ -45,15 +45,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in JavaScript and
-        TypeScript, and expertise in frameworks like React, Node.js, Express,
-        MongoDB and Tailwind CSS. I'm a quick learner and collaborate closely
-        with team and clients to create efficient, scalable, and user-friendly
-        solutions that solve real-world problems. Let's work together to bring
+        I’m a Full Stack Developer with experience in JavaScript and TypeScript, building scalable and user-friendly web applications using React, Next.js, Node.js, NestJS, and PostgreSQL. I collaborate closely with clients and teams to deliver reliable, maintainable solutions that solve real-world problems.Let's work together to bring
         your ideas to life!{" "}
         <a
-          href="akshayFullStackReact3.pdf"
-          download="AkshayJadhao FullStackReact3.pdf"
+          href="Akshay_Jadhao_cv_fullstack4.pdf"
+          download="AkshayJadhao_FullStackReact4.pdf"
         >
           <button className="bg-[#ff5823] hover:bg-white hover:text-black hover:transition-shadow text-sm font-semibold mt-1 ml-3 text-white-100 py-2 px-4 rounded-lg">
             Get Resume

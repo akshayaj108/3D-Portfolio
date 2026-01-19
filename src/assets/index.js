@@ -7,7 +7,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import jbLogo from "./company/jblogo.png"
+import smsLogo from "./company/smslogo.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -17,6 +18,10 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import nextjs from "./tech/nextjs-icon.png"
+import nestjs from "./tech/nest-js-icon.png"
+import postgresql from "./tech/postgresql-icon.png"
+import microServices from "./tech/ms.png"
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -27,7 +32,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import visionTechno from "./company/vs-logo-3.png";
 import tesla from "./company/tesla.png";
-
+import jebiLogo from "./company/JeBI_Logo.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -65,4 +70,11 @@ export {
   tripguide,
   visionTechno,
   express,
+  nestjs,
+  postgresql,
+  microServices,
+  nextjs,
+  jebiLogo,
+  jbLogo,
+  smsLogo
 };
